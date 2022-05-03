@@ -57,7 +57,7 @@ for pageNo in range(0,1):
     #insert digikala url in this part with format  like below
     #split url in to 2part dividing by page number
     #url="https://www.digikala.com/brand/pars-khazar/?category[0]=5815&pageno="+str(pageNo)+"&last_filter=category&last_value=5815&sortby=4"
-    
+    #you should check if the category page has 1 or more pages then use one of the url below
     #url="https://www.digikala.com/search/category-ups-battery/?pageno="+str(pageNo)+"&sortby=4"
     url="https://www.digikala.com/search/category-washing-machines/?brands[0]=1106"
     print(url)
